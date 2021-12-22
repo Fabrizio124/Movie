@@ -1,7 +1,6 @@
 package com.example.cursoudemyfinal.cursoudemyfinal.movieapp.data.model.remote
 
 data class Movie(
-
     val id: Int = -1,
     val adult: Boolean = false,
     val genre_ids: List<Int> = listOf(),
